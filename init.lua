@@ -19,6 +19,7 @@ vim.cmd [[
   Plug 'https://github.com/hrsh7th/cmp-nvim-lsp'
   Plug 'https://github.com/fatih/vim-go'
   Plug 'https://github.com/nvim-treesitter/nvim-treesitter'
+  Plug 'https://github.com/sbdchd/neoformat'
   call plug#end()
 ]]
 
@@ -82,4 +83,10 @@ cmp.setup({
     { name = 'nvim_lsp' }
   }
 })
+
+-- NEOFORMAT CONFIGURATION
+-- Use the project local version of prettier.
+vim.g.neoformat_try_node_exe = 1
+-- Format on save.
+vim.api.nvim_exec([[autocmd BufWritePre *.js,*.ts,*.tsx*,*.jsx,*.html,*.css Neoformat]], false)
 
