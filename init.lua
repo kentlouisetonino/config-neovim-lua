@@ -15,6 +15,10 @@ vim.cmd [[
   Plug 'https://github.com/nvim-lua/plenary.nvim'
   Plug 'https://github.com/dasupradyumna/midnight.nvim'
   Plug 'https://github.com/vim-airline/vim-airline'
+  Plug 'https://github.com/neovim/nvim-lspconfig'
+  Plug 'https://github.com/hrsh7th/nvim-cmp'
+  Plug 'https://github.com/hrsh7th/cmp-nvim-lsp'
+  Plug 'https://github.com/fatih/vim-go'
   call plug#end()
 ]]
 
@@ -60,4 +64,16 @@ local builtin = require('telescope.builtin')
 vim.api.nvim_set_keymap('n', '<leader>ff', '<cmd>Telescope find_files<CR>', { noremap = true, silent = true })
 -- Map leader+fg to Telescope live_grep.
 vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { noremap = true, silent = true })
+
+-- GO CONFIGURATION
+-- Configure LSP for Go
+require('lspconfig').gopls.setup{}
+
+-- Configure nvim-cmp
+local cmp = require('cmp')
+cmp.setup({
+  sources = {
+    { name = 'nvim_lsp' }
+  }
+})
 
