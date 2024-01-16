@@ -2,6 +2,10 @@
 > - This is my default Neovim config with Lua.
 
 <br />
+
+![Screenshot from 2024-01-16 13-39-06](https://github.com/kentlouisetonino/config-neovim-lua/assets/69438999/c7d3e335-674c-4c9f-9b33-fc54e8f9708a)
+
+<br />
 <br />
 
 
