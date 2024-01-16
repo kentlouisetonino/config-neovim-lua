@@ -14,6 +14,7 @@ vim.cmd [[
   Plug 'https://github.com/nvim-telescope/telescope.nvim'
   Plug 'https://github.com/nvim-lua/plenary.nvim'
   Plug 'https://github.com/dasupradyumna/midnight.nvim'
+  Plug 'https://github.com/vim-airline/vim-airline'
   call plug#end()
 ]]
 
