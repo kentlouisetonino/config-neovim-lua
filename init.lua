@@ -46,7 +46,7 @@ vim.api.nvim_set_keymap('n', '<F9>', ':q<CR>', { noremap = true, silent = true }
 -- Adjust the width of pane to the right.
 vim.api.nvim_set_keymap('n', '<F8>', '<C-w><', { noremap = true, silent = true })
 -- Adjust the width of pane to the left.
-vim.api.nvim_set_keymap('n', '<F8>', '<C-w>>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<F7>', '<C-w>>', { noremap = true, silent = true })
 
 -- NERDTREE CONFIGURATION
 -- Open the nerdtree.
