@@ -18,6 +18,7 @@ vim.cmd [[
   Plug 'https://github.com/hrsh7th/nvim-cmp'
   Plug 'https://github.com/hrsh7th/cmp-nvim-lsp'
   Plug 'https://github.com/fatih/vim-go'
+  Plug 'https://github.com/nvim-treesitter/nvim-treesitter'
   call plug#end()
 ]]
 
@@ -64,9 +65,10 @@ vim.api.nvim_set_keymap('n', '<leader>ff', '<cmd>Telescope find_files<CR>', { no
 -- Map leader+fg to Telescope live_grep.
 vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { noremap = true, silent = true })
 
--- GO CONFIGURATION
--- Configure LSP for Go.
-require('lspconfig').gopls.setup{}
+-- LSP CONFIGURATION
+local lspconfig = require('lspconfig')
+lspconfig.gopls.setup{}
+lspconfig.tsserver.setup{}
 
 -- NVIM-CMP CONFIGURATION
 local cmp = require('cmp')
