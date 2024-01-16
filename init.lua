@@ -1,3 +1,4 @@
+-- VIM PLUG CONFIGURATION
 -- Install and load vim-plug if not installed.
 local plug_path = vim.fn.stdpath('data')..'/site/autoload/plug.vim'
 if vim.fn.filereadable(plug_path) == 0 then
@@ -6,8 +7,6 @@ if vim.fn.filereadable(plug_path) == 0 then
     vim.cmd('source ' .. plug_path)
     vim.cmd('PlugInstall --sync | source $MYVIMRC')
 end
-
--- Plugins to install.
 vim.cmd [[
   call plug#begin()
   Plug 'https://github.com/preservim/nerdtree'
@@ -66,12 +65,17 @@ vim.api.nvim_set_keymap('n', '<leader>ff', '<cmd>Telescope find_files<CR>', { no
 vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { noremap = true, silent = true })
 
 -- GO CONFIGURATION
--- Configure LSP for Go
+-- Configure LSP for Go.
 require('lspconfig').gopls.setup{}
 
--- Configure nvim-cmp
+-- NVIM-CMP CONFIGURATION
 local cmp = require('cmp')
 cmp.setup({
+  mapping = {
+    ['<Tab>'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
+    ['<S-Tab>'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
+    ['<CR>'] = cmp.mapping.confirm({ select = true }),
+  },
   sources = {
     { name = 'nvim_lsp' }
   }
