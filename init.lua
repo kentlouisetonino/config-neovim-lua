@@ -70,6 +70,7 @@ vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { nor
 local lspconfig = require('lspconfig')
 lspconfig.gopls.setup{}
 lspconfig.tsserver.setup{}
+lspconfig.dartls.setup{}
 
 -- NVIM-CMP CONFIGURATION
 local cmp = require('cmp')
@@ -88,5 +89,5 @@ cmp.setup({
 -- Use the project local version of prettier.
 vim.g.neoformat_try_node_exe = 1
 -- Format on save.
-vim.api.nvim_exec([[autocmd BufWritePre *.js,*.ts,*.tsx*,*.jsx,*.html,*.css Neoformat]], false)
+vim.api.nvim_exec([[autocmd BufWritePre *.js,*.json,*.ts,*.tsx*,*.jsx,*.html,*.css,*.dart Neoformat]], false)
 
