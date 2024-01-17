@@ -70,7 +70,9 @@ vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { nor
 local lspconfig = require('lspconfig')
 lspconfig.gopls.setup{}
 lspconfig.tsserver.setup{}
-lspconfig.dartls.setup{}
+lspconfig.dartls.setup{
+  cmd = { "dart", 'language-server', '--protocol=lsp' },
+}
 
 -- NVIM-CMP CONFIGURATION
 local cmp = require('cmp')
