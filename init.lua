@@ -71,7 +71,6 @@ local lspconfig = require('lspconfig')
 lspconfig.marksman.setup{}
 lspconfig.gopls.setup{}
 lspconfig.tsserver.setup{}
-lspconfig.lua_ls.setup{}
 lspconfig.dartls.setup{
   cmd = { "dart", 'language-server', '--protocol=lsp' },
 }
