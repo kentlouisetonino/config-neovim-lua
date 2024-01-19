@@ -11,19 +11,6 @@
 
 
 ## Local Setup
-> - Setup the git remote repositories.
-```bash
-# Change mode permission and make it executable.
-chmod +x git-push-all
-
-# Add the remote ssh path.
-git remote add github <ssh-path-of-github-repository>
-git remote add gitlab <ssh-path-of-gitlab-repository>
-
-# Push changes to all remote repository.
-./git-push-all
-```
-
 > - Run the following commands below.
 
 ```plaintext
