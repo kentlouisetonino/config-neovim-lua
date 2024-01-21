@@ -69,6 +69,7 @@ vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { nor
 -- LSP CONFIGURATION
 local lspconfig = require('lspconfig')
 lspconfig.clangd.setup{}
+lspconfig.bashls.setup{}
 lspconfig.gopls.setup{}
 lspconfig.tsserver.setup{}
 lspconfig.dartls.setup{
