@@ -22,6 +22,7 @@ vim.cmd [[
   Plug 'https://github.com/sbdchd/neoformat'
   Plug 'https://github.com/stevearc/dressing.nvim'
   Plug 'https://github.com/akinsho/flutter-tools.nvim'
+  Plug 'https://github.com/mfussenegger/nvim-dap'
   call plug#end()
 ]]
 
