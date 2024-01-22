@@ -72,6 +72,7 @@ lspconfig.clangd.setup{}
 lspconfig.bashls.setup{}
 lspconfig.gopls.setup{}
 lspconfig.tsserver.setup{}
+lspconfig.marksman.setup{}
 lspconfig.dartls.setup{
   cmd = { "dart", 'language-server', '--protocol=lsp' },
 }
@@ -95,4 +96,17 @@ cmp.setup({
 vim.g.neoformat_try_node_exe = 1
 -- Format on save.
 vim.api.nvim_exec([[autocmd BufWritePre *.js,*.json,*.ts,*.tsx*,*.jsx,*.html,*.css,*.dart Neoformat]], false)
+
+-- MARKSMAN CONFIGURATION
+-- Check if LSP is loaded
+if vim.g.loaded_lsp then
+  -- Add marksman server configuration
+  vim.fn.LspAddServer({
+    name = 'marksman',
+    filetype = {'markdown'},
+    path = '/snap/bin/marksman',
+    args = {'server'},
+    syncInit = true,
+  })
+end
 
