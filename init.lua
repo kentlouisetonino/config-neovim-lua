@@ -20,6 +20,8 @@ vim.cmd [[
   Plug 'https://github.com/fatih/vim-go'
   Plug 'https://github.com/nvim-treesitter/nvim-treesitter'
   Plug 'https://github.com/sbdchd/neoformat'
+  Plug 'https://github.com/stevearc/dressing.nvim'
+  Plug 'https://github.com/akinsho/flutter-tools.nvim'
   call plug#end()
 ]]
 
@@ -72,10 +74,6 @@ lspconfig.clangd.setup{}
 lspconfig.bashls.setup{}
 lspconfig.gopls.setup{}
 lspconfig.tsserver.setup{}
-lspconfig.dartls.setup{
-  cmd = { "dart", 'language-server', '--protocol=lsp' },
-}
-
 
 -- NVIM-CMP CONFIGURATION
 local cmp = require('cmp')
