@@ -108,5 +108,11 @@ vim.g.neoformat_try_node_exe = 1
 vim.api.nvim_exec([[autocmd BufWritePre *.js,*.json,*.ts,*.tsx*,*.jsx,*.html,*.css,*.dart Neoformat]], false)
 
 -- GIT CONFIGURATION
-vgit.setup()
+vgit.setup({
+  settings = {
+    live_blame = {
+      enable = false
+    }
+  }
+})
 
