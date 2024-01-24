@@ -23,6 +23,7 @@ vim.cmd [[
   Plug 'https://github.com/stevearc/dressing.nvim'
   Plug 'https://github.com/akinsho/flutter-tools.nvim'
   Plug 'https://github.com/mfussenegger/nvim-dap'
+  Plug 'https://github.com/tanvirtin/vgit.nvim'
   call plug#end()
 ]]
 
@@ -50,6 +51,7 @@ vim.opt.completeopt = vim.opt.completeopt - 'preview'
 local builtin = require('telescope.builtin')
 local lspconfig = require('lspconfig')
 local cmp = require('cmp')
+local vgit = require('vgit')
 
 -- CUSTOM THEME CONFIGURATION
 vim.cmd('colorscheme midnight')
@@ -104,4 +106,7 @@ cmp.setup({
 vim.g.neoformat_try_node_exe = 1
 -- Format on save.
 vim.api.nvim_exec([[autocmd BufWritePre *.js,*.json,*.ts,*.tsx*,*.jsx,*.html,*.css,*.dart Neoformat]], false)
+
+-- GIT CONFIGURATION
+vgit.setup()
 
