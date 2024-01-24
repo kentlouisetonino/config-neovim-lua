@@ -111,8 +111,14 @@ vim.api.nvim_exec([[autocmd BufWritePre *.js,*.json,*.ts,*.tsx*,*.jsx,*.html,*.c
 vgit.setup({
   settings = {
     live_blame = {
-      enable = false
-    }
-  }
+      enabled = false,
+    },
+    live_gutter = {
+      enabled = true,
+    },
+    authorship_code_lens = {
+      enabled = false,
+    },
+  },
 })
 
