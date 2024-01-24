@@ -46,6 +46,11 @@ vim.opt.mouse = 'a'
 -- Disable completion preview.
 vim.opt.completeopt = vim.opt.completeopt - 'preview'
 
+-- PLUGINS VARIABLES
+local builtin = require('telescope.builtin')
+local lspconfig = require('lspconfig')
+local cmp = require('cmp')
+
 -- CUSTOM THEME CONFIGURATION
 vim.cmd('colorscheme midnight')
 
@@ -62,22 +67,27 @@ vim.api.nvim_set_keymap('n', '<F7>', '<C-w>>', { noremap = true, silent = true }
 vim.api.nvim_set_keymap('n', '<C-t>', ':NERDTreeToggle<CR>', { noremap = true, silent = true })
 
 -- TELESCOPE CONFIGURATION
--- Require the telescope plugin.
-local builtin = require('telescope.builtin')
 -- Map leader+ff to Telescope find_files.
 vim.api.nvim_set_keymap('n', '<leader>ff', '<cmd>Telescope find_files<CR>', { noremap = true, silent = true })
 -- Map leader+fg to Telescope live_grep.
 vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { noremap = true, silent = true })
 
--- LSP CONFIGURATION
-local lspconfig = require('lspconfig')
+-- C/C++ CONFIGURATION
 lspconfig.clangd.setup{}
+
+-- BASH CONFIGURATION
 lspconfig.bashls.setup{}
+
+-- GO CONFIGURATION
 lspconfig.gopls.setup{}
+
+-- TYPESCRIPT CONFIGURATION
 lspconfig.tsserver.setup{}
 
+-- MARKDOWN CONFIGURATION
+lspconfig.marksman.setup{}
+
 -- NVIM-CMP CONFIGURATION
-local cmp = require('cmp')
 cmp.setup({
   mapping = {
     ['<Tab>'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),

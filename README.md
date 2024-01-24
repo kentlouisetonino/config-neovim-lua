@@ -22,6 +22,7 @@ touch init.lua
 > - Copy the `init.lua` content.
 
 
+
 ## Basic Keyboard Commands
 > - NerdTree basic commands.
 
