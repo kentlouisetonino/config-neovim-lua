@@ -36,6 +36,9 @@ vim.cmd([[
   call plug#end()
 ]])
 
+-- This makes the plugin config accessible in other directory.
+package.path = package.path .. ";/home/kentlouisetonino/.config/nvim/?.lua"
+
 -- CUSTOM CONFIGURATION
 require("plugin_config.vim")
 
