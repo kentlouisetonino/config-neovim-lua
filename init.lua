@@ -41,14 +41,13 @@ vim.opt.shiftwidth = 2
 -- Use smartt tabs.
 vim.opt.smarttab = true
 -- Set soft tab stop to 2 spaces.
-vim.opt.softtabstop = 2 
+vim.opt.softtabstop = 2
 -- Enable mouse support in all nodes.
 vim.opt.mouse = 'a'
 -- Disable completion preview.
 vim.opt.completeopt = vim.opt.completeopt - 'preview'
 
 -- PLUGINS VARIABLES
-local builtin = require('telescope.builtin')
 local lspconfig = require('lspconfig')
 local cmp = require('cmp')
 local vgit = require('vgit')
