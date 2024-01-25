@@ -101,6 +101,19 @@ lspconfig.tsserver.setup{}
 -- MARKDOWN CONFIGURATION
 lspconfig.marksman.setup{}
 
+-- LUA CONFIGURATION
+lspconfig.lua_ls.setup {
+  cmd = { "/opt/lua-language-server/bin/lua-language-server" },
+  settings = {
+    Lua = {
+      diagnostics = {
+        -- Get the language server to recognize the `vim` global
+        globals = {'vim'},
+      },
+    },
+  },
+}
+
 -- NVIM-CMP CONFIGURATION
 cmp.setup({
   mapping = {
