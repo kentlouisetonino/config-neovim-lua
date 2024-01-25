@@ -24,6 +24,9 @@ vim.cmd [[
   Plug 'https://github.com/akinsho/flutter-tools.nvim'
   Plug 'https://github.com/mfussenegger/nvim-dap'
   Plug 'https://github.com/tanvirtin/vgit.nvim'
+  Plug 'https://github.com/stevearc/dressing.nvim' 
+  Plug 'https://github.com/akinsho/flutter-tools.nvim'
+  Plug 'https://github.com/williamboman/mason.nvim'
   call plug#end()
 ]]
 
@@ -96,7 +99,7 @@ require('lspconfig').tsserver.setup{}
 require('lspconfig').marksman.setup{}
 
 -- LUA CONFIGURATION
-require('lspconfig').lua_ls.setup {
+require('lspconfig').lua_ls.setup{
   cmd = { "/opt/lua-language-server/bin/lua-language-server" },
   settings = {
     Lua = {
@@ -107,6 +110,9 @@ require('lspconfig').lua_ls.setup {
     },
   },
 }
+
+-- MASON CONFIGURATION 
+require("mason").setup()
 
 -- NVIM-CMP CONFIGURATION
 require('cmp').setup({
@@ -124,7 +130,7 @@ require('cmp').setup({
 -- Use the project local version of prettier.
 vim.g.neoformat_try_node_exe = 1
 -- Format on save.
-vim.api.nvim_exec([[autocmd BufWritePre *.js,*.json,*.ts,*.tsx*,*.jsx,*.html,*.css,*.dart Neoformat]], false)
+vim.api.nvim_exec([[autocmd BufWritePre *.js,*.json,*.ts,*.tsx*,*.jsx,*.html,*.css,*.dart,*.lua Neoformat]], false)
 
 -- GIT CONFIGURATION
 require('vgit').setup({
