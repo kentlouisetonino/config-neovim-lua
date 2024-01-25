@@ -12,6 +12,8 @@ if vim.fn.filereadable(plug_path) == 0 then
 	vim.cmd("source " .. plug_path)
 	vim.cmd("PlugInstall --sync | source $MYVIMRC")
 end
+
+-- Packages to install.
 vim.cmd([[
   call plug#begin()
   Plug 'https://github.com/preservim/nerdtree'
@@ -21,6 +23,8 @@ vim.cmd([[
   Plug 'https://github.com/vim-airline/vim-airline'
   Plug 'https://github.com/neovim/nvim-lspconfig'
   Plug 'https://github.com/hrsh7th/nvim-cmp'
+  Plug 'https://github.com/hrsh7th/cmp-buffer'
+  Plug 'https://github.com/hrsh7th/cmp-path'
   Plug 'https://github.com/hrsh7th/cmp-nvim-lsp'
   Plug 'https://github.com/fatih/vim-go'
   Plug 'https://github.com/nvim-treesitter/nvim-treesitter'
