@@ -47,11 +47,6 @@ vim.opt.mouse = 'a'
 -- Disable completion preview.
 vim.opt.completeopt = vim.opt.completeopt - 'preview'
 
--- PLUGINS VARIABLES
-local lspconfig = require('lspconfig')
-local cmp = require('cmp')
-local vgit = require('vgit')
-
 -- CUSTOM THEME CONFIGURATION
 vim.cmd('colorscheme midnight')
 
@@ -86,22 +81,22 @@ vim.api.nvim_set_keymap('n', '<leader>ff', '<cmd>Telescope find_files<CR>', { no
 vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { noremap = true, silent = true })
 
 -- C/C++ CONFIGURATION
-lspconfig.clangd.setup{}
+require('lspconfig').clangd.setup{}
 
 -- BASH CONFIGURATION
-lspconfig.bashls.setup{}
+require('lspconfig').bashls.setup{}
 
 -- GO CONFIGURATION
-lspconfig.gopls.setup{}
+require('lspconfig').gopls.setup{}
 
 -- TYPESCRIPT CONFIGURATION
-lspconfig.tsserver.setup{}
+require('lspconfig').tsserver.setup{}
 
 -- MARKDOWN CONFIGURATION
-lspconfig.marksman.setup{}
+require('lspconfig').marksman.setup{}
 
 -- LUA CONFIGURATION
-lspconfig.lua_ls.setup {
+require('lspconfig').lua_ls.setup {
   cmd = { "/opt/lua-language-server/bin/lua-language-server" },
   settings = {
     Lua = {
@@ -114,11 +109,11 @@ lspconfig.lua_ls.setup {
 }
 
 -- NVIM-CMP CONFIGURATION
-cmp.setup({
+require('cmp').setup({
   mapping = {
-    ['<Tab>'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
-    ['<S-Tab>'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
-    ['<CR>'] = cmp.mapping.confirm({ select = true }),
+    ['<Tab>'] = require('cmp').mapping.select_next_item({ behavior = require('cmp').SelectBehavior.Insert }),
+    ['<S-Tab>'] = require('cmp').mapping.select_prev_item({ behavior = require('cmp').SelectBehavior.Insert }),
+    ['<CR>'] = require('cmp').mapping.confirm({ select = true }),
   },
   sources = {
     { name = 'nvim_lsp' }
@@ -132,7 +127,7 @@ vim.g.neoformat_try_node_exe = 1
 vim.api.nvim_exec([[autocmd BufWritePre *.js,*.json,*.ts,*.tsx*,*.jsx,*.html,*.css,*.dart Neoformat]], false)
 
 -- GIT CONFIGURATION
-vgit.setup({
+require('vgit').setup({
   settings = {
     live_blame = {
       enabled = false,
