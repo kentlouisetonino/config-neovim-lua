@@ -75,6 +75,10 @@ vim.api.nvim_exec([[
     autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
   augroup END
 ]], true)
+-- Open the existing NERDTree on each new tab.
+vim.cmd([[
+  autocmd BufWinEnter * if &buftype != 'quickfix' && getcmdwintype() == '' | silent NERDTreeMirror | endif
+]])
 
 -- TELESCOPE CONFIGURATION
 -- Map leader+ff to Telescope find_files.
