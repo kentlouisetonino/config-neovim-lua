@@ -13,10 +13,22 @@
 ## Local Setup
 > - Run the following commands below.
 
-```plaintext
-cd
-cd .config/nvim
-touch init.lua
+```bash
+# Go to the config directory.
+cd .config
+
+# Clone the repository.
+git clone git@github.com:kentlouisetonino/config-neovim-lua.git
+
+# Rename the folder.
+mv config-neovim-lua nvim
+
+# Go the nvim directory and open nvim.
+cd nvim
+nvim init.lua
+
+# Install the plugins.
+:PlugInstall
 ```
 
 > - Copy the `init.lua` content.
@@ -31,8 +43,25 @@ m     : This bring up the NerdTree Filesystem menu.
 a     : This allows to create a new file.
 d     : This allows to delete a file.
 mm    : This allows renaming a file.
+
 t     : Open a new tab.
 gt    : Switch to next tab.
 gT    : Switch to previous tab.
 ```
 
+> - Cursor movement basic commands.
+
+```plaintext
+h   : Move cursor left.
+j   : Move cursor down.
+k   : Move cursor up.
+l   : Move cursor right.
+H   : Move to top of screen.
+M   : Move to middle of screen.
+L   : Move to bottom of screen.
+
+e   : Jump forwards to the end of a word.
+E   : Jump forwards to the end of a word (Words can contain punctuation).
+w   : Jump forwards to the start of a word.
+W   : Jump forwards to the start of a word (Words can contain puntuation).
+```
