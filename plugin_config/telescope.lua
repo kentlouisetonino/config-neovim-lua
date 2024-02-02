@@ -3,3 +3,19 @@ vim.api.nvim_set_keymap("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { no
 
 -- Map leader+fg to Telescope live_grep.
 vim.api.nvim_set_keymap("n", "<leader>fg", "<cmd>Telescope live_grep<CR>", { noremap = true, silent = true })
+
+vim.api.nvim_exec(
+	[[
+  augroup TelescopeFindFiles
+    autocmd!
+    autocmd FileType telescope | silent NERDTreeFind
+  augroup END
+]],
+	false
+)
+
+_G.my_module = {}
+
+function my_module.onTelescopeFindFiles()
+	print("hello world")
+end
