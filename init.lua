@@ -27,7 +27,7 @@ vim.cmd([[
   Plug 'https://github.com/hrsh7th/cmp-path'
   Plug 'https://github.com/hrsh7th/cmp-nvim-lsp'
   Plug 'https://github.com/fatih/vim-go'
-  Plug 'https://github.com/nvim-treesitter/nvim-treesitter'
+  Plug 'https://github.com/nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'https://github.com/sbdchd/neoformat'
   Plug 'https://github.com/stevearc/dressing.nvim'
   Plug 'https://github.com/akinsho/flutter-tools.nvim'
