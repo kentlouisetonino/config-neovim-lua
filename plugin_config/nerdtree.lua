@@ -10,10 +10,13 @@ vim.api.nvim_exec(
     autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif | silent NERDTreeFind | wincmd p
   augroup END
 ]],
-	true
+	false
 )
 
 -- Open the existing NERDTree on each new tab.
 vim.cmd([[
   autocmd BufWinEnter * if &buftype != 'quickfix' && getcmdwintype() == '' | silent NERDTreeMirror | endif
 ]])
+
+-- Map F2 to execute the function to synchronize active buffer.
+vim.api.nvim_set_keymap("n", "<F2>", ":NERDTreeFind<CR>:wincmd p<CR>", { noremap = true, silent = true })
