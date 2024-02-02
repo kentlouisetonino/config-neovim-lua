@@ -7,7 +7,7 @@ vim.api.nvim_exec(
   augroup NERDTreeAutoCmd
     autocmd!
     autocmd StdinReadPre * let s:std_in=1
-    autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
+    autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | silent NERDTreeFind | endif
   augroup END
 ]],
 	true
