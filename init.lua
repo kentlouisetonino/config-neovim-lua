@@ -65,7 +65,7 @@ require("plugin_config.bash")
 require("plugin_config.go")
 
 -- TYPESCRIPT CONFIGURATION
-require("plugin_config.typescript")
+-- require("plugin_config.typescript")
 
 -- MARKDOWN CONFIGURATION
 require("plugin_config.markdown")
