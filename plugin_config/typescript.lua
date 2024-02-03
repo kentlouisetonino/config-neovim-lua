@@ -1,11 +1,12 @@
-local util = require("lspconfig/util")
+local lspconfig = require("lspconfig")
 
 -- Active the language server protocol for TypeScript.
-require("lspconfig").tsserver.setup({
+lspconfig.tsserver.setup({
 	cmd = { "typescript-language-server", "--stdio" },
 	init_options = {
 		hostInfo = "neovim",
 	},
-	root_dir = util.root_pattern("tsconfig.json", "package.json", ".git"),
+	filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
+	root_dir = lspconfig.util.root_pattern("tsconfig.json", "package.json"),
 	single_file_support = true,
 })
