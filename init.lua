@@ -37,6 +37,7 @@ vim.cmd([[
   Plug 'https://github.com/akinsho/flutter-tools.nvim'
   Plug 'https://github.com/williamboman/mason.nvim'
   Plug 'https://github.com/mhartington/formatter.nvim'
+  Plug 'https://github.com/neoclide/coc.nvim', {'branch': 'release'}
   call plug#end()
 ]])
 
