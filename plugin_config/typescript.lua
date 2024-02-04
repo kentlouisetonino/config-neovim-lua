@@ -3,7 +3,6 @@ vim.api.nvim_exec(
 	[[
   autocmd BufEnter *.js,*.jsx,*.ts,*.tsx,*.json call coc#activate()
   autocmd BufLeave *.js,*.jsx,*.ts,*.tsx,*.json call coc#deactivate()
-  inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
   inoremap <silent><expr> <c-space> coc#refresh()
   nmap <silent> gd <Plug>(coc-definition)
   nmap <silent> gy <Plug>(coc-type-definition)
