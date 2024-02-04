@@ -64,4 +64,8 @@ e   : Jump forwards to the end of a word.
 E   : Jump forwards to the end of a word (Words can contain punctuation).
 w   : Jump forwards to the start of a word.
 W   : Jump forwards to the start of a word (Words can contain puntuation).
+
+C-y : Completion active import.
+C-n : Completion next import.
+C-p : Completion previous import.
 ```
