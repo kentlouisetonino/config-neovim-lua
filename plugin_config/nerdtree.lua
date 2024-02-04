@@ -1,3 +1,6 @@
+-- Show hidden files by default.
+vim.api.nvim_set_var("NERDTreeShowHidden", 1)
+
 -- Open the nerdtree.
 vim.api.nvim_set_keymap("n", "<C-t>", ":NERDTreeToggle<CR>", { noremap = true, silent = true })
 
