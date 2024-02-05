@@ -1,4 +1,8 @@
--- coc.nvim setup
+require("lspconfig").tsserver.setup({})
+
+--[=====[
+Use VS Code for Web Development
+
 vim.api.nvim_exec(
 	[[
   autocmd BufEnter *.js,*.jsx,*.ts,*.tsx,*.json call coc#activate()
@@ -22,3 +26,4 @@ local function show_documentation()
 		vim.fn.CocActionAsync("doHover")
 	end
 end
+--]=====]
