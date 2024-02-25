@@ -88,3 +88,6 @@ require("plugin_config.neoformat")
 
 -- GIT CONFIGURATION
 require("plugin_config.git")
+
+-- PYTHON CONFIGURATION
+require("plugin_config.python")
