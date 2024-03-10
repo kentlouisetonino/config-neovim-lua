@@ -76,4 +76,5 @@ C-p : Completion previous import.
 
 r   : Replace a character.
 x   : Delecte a character.
+o   : New line without pressing insert.
 ```
