@@ -1,4 +1,5 @@
-## Description
+### DESCRIPTION
+#
 > - This is my default Neovim config with Lua.
 
 <br />
@@ -10,7 +11,8 @@
 
 
 
-## Local Setup
+### LOCAL SETUP
+#
 > - Run the following commands below.
 
 ```bash
@@ -33,9 +35,12 @@ nvim init.lua
 
 > - Copy the `init.lua` content.
 
+<br />
+<br />
 
 
-## Basic Keyboard Commands
+
+## KEYBOARD COMMANDS
 > - NerdTree basic commands.
 
 ```plaintext
@@ -47,6 +52,7 @@ mm    : This allows renaming a file.
 t     : Open a new tab.
 gt    : Switch to next tab.
 gT    : Switch to previous tab.
+C-t   : Toggle the NERDTree.
 ```
 
 > - Cursor movement basic commands.
@@ -64,8 +70,13 @@ e   : Jump forwards to the end of a word.
 E   : Jump forwards to the end of a word (Words can contain punctuation).
 w   : Jump forwards to the start of a word.
 W   : Jump forwards to the start of a word (Words can contain puntuation).
+gd  : Go to definition.
 
 C-y : Completion active import.
 C-n : Completion next import.
 C-p : Completion previous import.
+
+r   : Replace a character.
+x   : Delecte a character.
+o   : New line without pressing insert.
 ```
