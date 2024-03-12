@@ -33,3 +33,6 @@ vim.api.nvim_set_keymap("n", "<F8>", "<C-w><", { noremap = true, silent = true }
 
 -- Adjust the width of pane to the left.
 vim.api.nvim_set_keymap("n", "<F7>", "<C-w>>", { noremap = true, silent = true })
+
+-- Go to definition.
+vim.api.nvim_set_keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", { noremap = true, silent = true })
