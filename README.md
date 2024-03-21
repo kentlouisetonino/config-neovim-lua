@@ -82,5 +82,7 @@ o   : New line below without pressing insert.
 O   : New line above without pressing insert.
 
 V || Shift + v    : Highlight a line.
->                 : Indent multiple line.   
+>                 : Indent multiple line.
+
+:noh              : Remove the highlights.
 ```
