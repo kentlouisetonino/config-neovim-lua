@@ -77,6 +77,12 @@ C-n : Completion next import.
 C-p : Completion previous import.
 
 r   : Replace a character.
-x   : Delecte a character.
-o   : New line without pressing insert.
+x   : Delete a character.
+o   : New line below without pressing insert.
+O   : New line above without pressing insert.
+
+V || Shift + v    : Highlight a line.
+>                 : Indent multiple line.
+
+:noh              : Remove the highlights.
 ```
