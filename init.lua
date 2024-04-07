@@ -47,6 +47,9 @@ package.path = package.path .. ";/home/kentlouisetonino/.config/nvim/?.lua"
 -- CUSTOM CONFIGURATION
 require("plugin_config.vim")
 
+-- ARDUINO CONFIGURATION
+require("plugin_config.arduino")
+
 -- THEME CONFIGURATION
 require("plugin_config.theme")
 
