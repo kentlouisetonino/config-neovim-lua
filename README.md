@@ -1,4 +1,4 @@
-### DESCRIPTION
+### Description
 #
 > - This is my default Neovim config with Lua.
 
@@ -11,7 +11,7 @@
 
 
 
-### LOCAL SETUP
+### Local Setup
 #
 > - Run the following commands below.
 
@@ -40,7 +40,7 @@ nvim init.lua
 
 
 
-## KEYBOARD COMMANDS
+## Keyboard Commands
 > - NerdTree basic commands.
 
 ```plaintext
