@@ -86,4 +86,7 @@ V || Shift + v    : Highlight a line.
 >                 : Indent multiple line.
 
 :noh              : Remove the highlights.
+
+F1  : Open a new tab with terminal.
+F2  : Escape the insert mode of terminal.
 ```
