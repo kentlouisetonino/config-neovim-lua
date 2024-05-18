@@ -66,6 +66,7 @@ H   : Move to top of screen.
 M   : Move to middle of screen.
 L   : Move to bottom of screen.
 G   : Move the cursor at the bottom of the page.
+gg  : Move to the top of page.
 
 e   : Jump forwards to the end of a word.
 E   : Jump forwards to the end of a word (Words can contain punctuation).
