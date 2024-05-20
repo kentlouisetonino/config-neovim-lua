@@ -8,4 +8,4 @@ vim.api.nvim_set_keymap("n", "<C-t>", ":NERDTreeToggle<CR>:wincmd p<CR>", { nore
 vim.cmd([[autocmd VimEnter * NERDTree]])
 
 -- Backup for nerdtree autosynchronize.
-vim.api.nvim_set_keymap("n", "<F2>", ":NERDTreeFind<CR>:wincmd p<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<F3>", ":NERDTreeFind<CR>:wincmd p<CR>", { noremap = true, silent = true })
