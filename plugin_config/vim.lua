@@ -47,3 +47,6 @@ vim.api.nvim_exec(
 ]],
 	false
 )
+
+-- Allow clipboard functionality.
+vim.opt.clipboard:append("unnamedplus")

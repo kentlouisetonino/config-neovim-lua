@@ -91,3 +91,17 @@ V || Shift + v    : Highlight a line.
 F1  : Open a new tab with terminal.
 F2  : Escape the insert mode of terminal.
 ```
+
+<br />
+<br />
+
+
+
+### Installation
+#
+
+> - To make sure the clipboard works.
+
+```sh
+sudo apt install xclip
+```
