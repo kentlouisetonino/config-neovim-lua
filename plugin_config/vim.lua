@@ -26,24 +26,30 @@ vim.opt.mouse = "a"
 vim.opt.completeopt = vim.opt.completeopt - "preview"
 
 -- Exit the application.
-vim.api.nvim_set_keymap("n", "<F9>", ":q<CR>", { noremap = true, silent = true })
+-- Attackshark M87 function keys not working in linux.
+-- Change from F9 to f9.
+vim.api.nvim_set_keymap("n", "f9", ":q<CR>", { noremap = true, silent = true })
 
 -- Adjust the width of pane to the right.
-vim.api.nvim_set_keymap("n", "<F8>", "<C-w><", { noremap = true, silent = true })
+-- Change from F8 to f8.
+vim.api.nvim_set_keymap("n", "f8", "<C-w><", { noremap = true, silent = true })
 
 -- Adjust the width of pane to the left.
-vim.api.nvim_set_keymap("n", "<F7>", "<C-w>>", { noremap = true, silent = true })
+-- Change from F7 to f7.
+vim.api.nvim_set_keymap("n", "f7", "<C-w>>", { noremap = true, silent = true })
 
 -- Go to definition.
 vim.api.nvim_set_keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", { noremap = true, silent = true })
 
 -- Horizontal terminal.
-vim.api.nvim_set_keymap("n", "<F1>", ":tabnew | terminal<CR>", { noremap = true, silent = true })
+-- Change from F1 to f1.
+vim.api.nvim_set_keymap("n", "f1", ":tabnew | terminal<CR>", { noremap = true, silent = true })
 
 -- Allow escape when in insert mode in terminal.
+-- Change from F2 to f2.
 vim.api.nvim_exec(
 	[[
-  autocmd TermOpen * tnoremap <buffer> <F2> <C-\><C-n>
+  autocmd TermOpen * tnoremap <buffer> f2 <C-\><C-n>
 ]],
 	false
 )

@@ -88,8 +88,8 @@ V || Shift + v    : Highlight a line.
 
 :noh              : Remove the highlights.
 
-F1  : Open a new tab with terminal.
-F2  : Escape the insert mode of terminal.
+F1/f1  : Open a new tab with terminal.
+F2/f2  : Escape the insert mode of terminal.
 ```
 
 <br />
