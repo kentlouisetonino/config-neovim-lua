@@ -33,8 +33,6 @@ nvim init.lua
 :PlugInstall
 ```
 
-> - Copy the `init.lua` content.
-
 <br />
 <br />
 
