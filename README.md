@@ -95,11 +95,41 @@ F2/f2  : Escape the insert mode of terminal.
 
 
 
-### Installation
+### Clipboard Setup
 #
 
 > - To make sure the clipboard works.
 
 ```sh
 sudo apt install xclip
+```
+
+<br />
+<br />
+
+
+
+### C/C++ Setup
+#
+
+> - This project uses the `Clang` compiler frontend.
+
+> - This handles as well the `LSP` management support.
+
+> - However, sometimes `clang` cannot find the headers of <br />
+    some libraries. To fix this, put the path of the headers <br />
+    in `.clangd` config. Example below is the path for AVR <br />
+    LibC library.
+
+```sh
+# Go to the home directory.
+cd
+
+# Open the .clangd configuration file.
+nvim .clangd
+
+# Put this inside the .clangd configuration file.
+CompileFlags:
+	Remove: [-Wredefined-macro],
+	Add: [-I/usr/lib/avr/include, -Wno-redefined-macro, -D__AVR_ATmega328P__]
 ```
