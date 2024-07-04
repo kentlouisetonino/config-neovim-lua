@@ -1,5 +1,5 @@
-### Description
-#
+## $\textnormal{Description{$
+
 > - This is my default Neovim config with Lua.
 
 <br />
@@ -11,8 +11,8 @@
 
 
 
-### Local Setup
-#
+## $\textnormal{Local \ Setup}$
+
 > - Run the following commands below.
 
 ```bash
@@ -38,7 +38,7 @@ nvim init.lua
 
 
 
-## Keyboard Commands
+## $\textnormal{Keyboard Commands}$
 > - NerdTree basic commands.
 
 ```plaintext
@@ -96,8 +96,7 @@ F9  : Close the current tab or window.
 
 
 
-### Clipboard Setup
-#
+## $\textnormal{Clipboard Setup}$
 
 > - To make sure the clipboard works.
 
@@ -110,8 +109,7 @@ sudo apt install xclip
 
 
 
-### C/C++ Setup
-#
+## $\textnormal{C/C++ \ Setup}$
 
 > - This project uses the `Clang` compiler frontend.
 
