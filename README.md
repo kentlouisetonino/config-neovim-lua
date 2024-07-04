@@ -51,6 +51,7 @@ t     : Open a new tab.
 gt    : Switch to next tab.
 gT    : Switch to previous tab.
 C-t   : Toggle the NERDTree.
+F3    : Sync the window to the nerdtree.
 ```
 
 > - Cursor movement basic commands.
@@ -87,7 +88,8 @@ V || Shift + v    : Highlight a line.
 :noh              : Remove the highlights.
 
 F1  : Open a new tab with terminal.
-f2  : Escape the insert mode of terminal.
+F2  : Escape the insert mode of terminal.
+F9  : Close the current tab or window.
 ```
 
 <br />
