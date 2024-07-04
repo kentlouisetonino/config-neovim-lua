@@ -1,4 +1,4 @@
-## $\textnormal{Description{$
+## $\textnormal{Description}$
 
 > - This is my default Neovim config with Lua.
 
