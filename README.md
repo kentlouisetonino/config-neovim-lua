@@ -4,7 +4,8 @@
 
 <br />
 
-![Screenshot from 2024-01-16 13-39-06](https://github.com/kentlouisetonino/config-neovim-lua/assets/69438999/c7d3e335-674c-4c9f-9b33-fc54e8f9708a)
+![Screenshot from 2024-07-06 13-06-24](https://github.com/kentlouisetonino/config-neovim-lua/assets/69438999/85b70601-7654-476c-8333-afce52ef5646)
+
 
 <br />
 <br />
