@@ -5,7 +5,7 @@ vim.api.nvim_set_var("NERDTreeShowHidden", 1)
 vim.api.nvim_set_keymap("n", "<C-t>", ":NERDTreeToggle<CR>:wincmd p<CR>", { noremap = true, silent = true })
 
 -- Automatically open NERDTree when Neovim starts (optional)
-vim.cmd([[autocmd VimEnter * NERDTree]])
+-- vim.cmd([[autocmd VimEnter * NERDTree]])
 
 -- Backup for nerdtree autosynchronize.
 vim.api.nvim_set_keymap("n", "<F3>", ":NERDTreeFind<CR>:wincmd p<CR>", { noremap = true, silent = true })
