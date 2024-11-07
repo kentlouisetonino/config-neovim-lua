@@ -55,7 +55,7 @@ C-t   : Toggle the NERDTree.
 F3    : Sync the window to the nerdtree.
 ```
 
-> - Cursor movement basic commands.
+> - Basic commands.
 
 ```plaintext
 h   : Move cursor left.
@@ -83,6 +83,7 @@ x   : Delete a character.
 o   : New line below without pressing insert.
 O   : New line above without pressing insert.
 
+Shift + k   : Show docs.
 Shift + v   : Highlight a line.
 >           : Indent multiple line.
 :noh        : Remove the highlights.
