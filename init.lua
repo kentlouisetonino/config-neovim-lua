@@ -74,6 +74,9 @@ require("plugin_config.tailwindcss")
 -- TYPESCRIPT CONFIGURATION
 require("plugin_config.typescript")
 
+-- TYPESCRIPT CONFIGURATION
+require("plugin_config.deno")
+
 -- MARKDOWN CONFIGURATION
 require("plugin_config.markdown")
 
@@ -94,3 +97,6 @@ require("plugin_config.git")
 
 -- PYTHON CONFIGURATION
 require("plugin_config.python")
+
+-- TERRAFORM CONFIGURATION
+require("plugin_config.terraform")
