@@ -1,4 +1,4 @@
-## $\textnormal{Description}$
+## Description
 
 > - This is my default Neovim config with Lua.
 
@@ -12,7 +12,7 @@
 
 
 
-## $\textnormal{Local \ Setup}$
+## Setup
 
 > - Run the following commands below.
 
@@ -100,7 +100,7 @@ F9  : Close the current tab or window.
 
 
 
-## $\textnormal{Clipboard Setup}$
+## Installation
 
 > - To make sure the clipboard works.
 
@@ -113,7 +113,7 @@ sudo apt install xclip
 
 
 
-## $\textnormal{C/C++ \ Setup}$
+## C/C++ \ Setup
 
 > - This project uses the `Clang` compiler frontend.
 
