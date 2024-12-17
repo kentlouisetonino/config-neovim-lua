@@ -39,7 +39,7 @@ nvim init.lua
 
 
 
-## $\textnormal{Keyboard Commands}$
+## Commands
 > - NerdTree basic commands.
 
 ```plaintext
