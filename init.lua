@@ -13,7 +13,7 @@ if vim.fn.filereadable(plug_path) == 0 then
 	vim.cmd("PlugInstall --sync | source $MYVIMRC")
 end
 
--- Packages to install.
+-- Plugins to install.
 vim.cmd([[
   call plug#begin()
   Plug 'https://github.com/preservim/nerdtree'
