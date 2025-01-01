@@ -93,6 +93,7 @@ F2  : Escape the insert mode of terminal.
 F9  : Close the current tab or window.
 
 /<word> -> Enter -> n   : This will allow to search the word and jump to the next same word.
+:wqa 			: Close all open tabs.
 ```
 
 <br />
