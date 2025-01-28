@@ -126,14 +126,18 @@ sudo apt install xclip
     LibC library.
 
 ```sh
-# Go to the home directory.
-cd
+# Go to the project directory.
+cd <project-directory>
 
 # Open the .clangd configuration file.
 nvim .clangd
 
 # Put this inside the .clangd configuration file.
+# Below are sample configuration for C++ setup.
 CompileFlags:
-	Remove: [-Wredefined-macro],
-	Add: [-I/usr/lib/avr/include, -Wno-redefined-macro, -D__AVR_ATmega328P__]
+  Add:
+    - -I/usr/include/c++/11
+    - -I/usr/include/x86_64-linux-gnu/c++/11
+    - -I/usr/lib/gcc/x86_64-linux-gnu/11/include
+    - -I/usr/include
 ```
