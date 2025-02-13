@@ -51,7 +51,7 @@ require("plugin_config.vim")
 require("plugin_config.arduino")
 
 -- THEME CONFIGURATION
-require("plugin_config.theme")
+-- require("plugin_config.theme")
 
 -- NERDTREE CONFIGURATION
 require("plugin_config.nerdtree")
