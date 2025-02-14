@@ -40,7 +40,6 @@ vim.cmd([[
   Plug 'https://github.com/neoclide/coc.nvim', {'branch': 'release'}
   Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
   Plug 'nvim-lualine/lualine.nvim'
-  Plug 'nvim-tree/nvim-web-devicons'
   call plug#end()
 ]])
 
