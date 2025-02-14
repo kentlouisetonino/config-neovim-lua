@@ -1,2 +1,2 @@
 -- Initiatet the midnight theme.
-vim.cmd("colorscheme midnight")
+vim.cmd [[ colorscheme moonfly ]]

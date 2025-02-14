@@ -38,6 +38,7 @@ vim.cmd([[
   Plug 'https://github.com/williamboman/mason.nvim'
   Plug 'https://github.com/mhartington/formatter.nvim'
   Plug 'https://github.com/neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
   call plug#end()
 ]])
 
