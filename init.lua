@@ -42,7 +42,7 @@ vim.cmd([[
 ]])
 
 -- This makes the plugin config accessible in other directory.
-package.path = package.path .. ";/home/kentlouisetonino/.config/nvim/?.lua"
+package.path = package.path .. ";/home/ubuntu/.config/nvim/?.lua"
 
 -- CUSTOM CONFIGURATION
 require("plugin_config.vim")
@@ -51,7 +51,7 @@ require("plugin_config.vim")
 require("plugin_config.arduino")
 
 -- THEME CONFIGURATION
--- require("plugin_config.theme")
+require("plugin_config.theme")
 
 -- NERDTREE CONFIGURATION
 require("plugin_config.nerdtree")
