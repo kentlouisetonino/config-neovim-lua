@@ -71,7 +71,7 @@ require("plugin_config.bash")
 require("plugin_config.go")
 
 -- TAILWIND CSS CONFIGURATION
-require("plugin_config.tailwindcss")
+-- require("plugin_config.tailwindcss")
 
 -- TYPESCRIPT CONFIGURATION
 require("plugin_config.typescript")
