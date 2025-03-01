@@ -95,7 +95,7 @@ require("plugin_config.cmp")
 require("plugin_config.neoformat")
 
 -- GIT CONFIGURATION
--- require("plugin_config.git")
+require("plugin_config.git")
 
 -- PYTHON CONFIGURATION
 require("plugin_config.python")
