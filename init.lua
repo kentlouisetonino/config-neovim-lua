@@ -76,6 +76,9 @@ require("plugin_config.go")
 -- TYPESCRIPT CONFIGURATION
 require("plugin_config.typescript")
 
+-- PRISMA CONFIGURATION
+require("plugin_config.prisma")
+
 -- TYPESCRIPT CONFIGURATION
 require("plugin_config.deno")
 
