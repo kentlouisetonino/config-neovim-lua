@@ -73,6 +73,7 @@ E   : Jump forwards to the end of a word (Words can contain punctuation).
 w   : Jump forwards to the start of a word.
 W   : Jump forwards to the start of a word (Words can contain puntuation).
 gd  : Go to definition.
+gl  : Show the full error message.
 
 C-y : Completion active import.
 C-n : Completion next import.

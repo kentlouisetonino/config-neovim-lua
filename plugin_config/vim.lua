@@ -50,3 +50,6 @@ vim.api.nvim_exec(
 
 -- Allow clipboard functionality.
 vim.opt.clipboard:append("unnamedplus")
+
+-- Show the error message in multiple line.
+vim.api.nvim_set_keymap("n", "gl", "<cmd>lua vim.diagnostic.open_float()<CR>", { noremap = true, silent = true })
