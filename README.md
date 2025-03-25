@@ -83,6 +83,8 @@ r   : Replace a character.
 x   : Delete a character.
 o   : New line below without pressing insert.
 O   : New line above without pressing insert.
+0   : Go to the beginning of current line.
+$   : Go to the end of current line.
 
 Shift + k   : Show docs.
 Shift + v   : Highlight a line.
