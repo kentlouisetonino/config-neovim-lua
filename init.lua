@@ -37,20 +37,20 @@ vim.cmd([[
   Plug 'https://github.com/akinsho/flutter-tools.nvim'
   Plug 'https://github.com/williamboman/mason.nvim'
   Plug 'https://github.com/mhartington/formatter.nvim'
-  Plug 'https://github.com/neoclide/coc.nvim', {'branch': 'release'}
   Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
   Plug 'nvim-lualine/lualine.nvim'
   call plug#end()
 ]])
 
 -- This makes the plugin config accessible in other directory.
-package.path = package.path .. ";/home/ubuntu/.config/nvim/?.lua"
+-- If you change the username of the machine, need to update this.
+package.path = package.path .. ";/home/nihilistictinkerer/.config/nvim/?.lua"
 
 -- CUSTOM CONFIGURATION
 require("plugin_config.vim")
 
 -- ARDUINO CONFIGURATION
-require("plugin_config.arduino")
+-- require("plugin_config.arduino")
 
 -- THEME CONFIGURATION
 require("plugin_config.theme")
@@ -98,7 +98,7 @@ require("plugin_config.cmp")
 require("plugin_config.neoformat")
 
 -- GIT CONFIGURATION
--- require("plugin_config.git")
+require("plugin_config.git")
 
 -- PYTHON CONFIGURATION
 require("plugin_config.python")
