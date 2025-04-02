@@ -93,6 +93,7 @@ Shift + v   : Highlight a line.
 
 F1  : Open a new tab with terminal.
 F2  : Escape the insert mode of terminal.
+F5  : Restart the LSP.
 F9  : Close the current tab or window.
 
 /<word> -> Enter -> n   : This will allow to search the word and jump to the next same word.
