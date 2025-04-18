@@ -9,9 +9,9 @@
 
 <br />
 
-| Dependency | Link |
+| `Dependency` | `Link` |
 | ---------- | ---- |
-| Vim-Plug | https://github.com/junegunn/vim-plug | 
+| `Vim-Plug` | `https://github.com/junegunn/vim-plug` | 
 
 <br />
 <br />
@@ -61,19 +61,19 @@ fc-list | grep "3270"
 
 <br />
 
-| Nerdtree Commands | Description |
+| `Nerdtree Commands` | `Description` |
 | ----------------- | ----------- |
-| m | This bring up the NerdTree Filesystem menu. |
-| a | This allows to create a new file. |
-| d | This allows to delete a file. |
-| mm | This allows renaming a file. |
-| t | Open a new tab. |
-| gt | Switch to next tab. |
-| gT | Switch to previous tab. |
-| C-t | Toggle the NERDTree. |
-| F3 | Sync the window to the nerdtree. |
-| F7 | Move the window size. |
-| F8 | Move the window size. |
+| `m` | `This bring up the NerdTree Filesystem menu.` |
+| `a` | `This allows to create a new file.` |
+| `d` | `This allows to delete a file.` |
+| `mm` | `This allows renaming a file.` |
+| `t` | `Open a new tab.` |
+| `gt` | `Switch to next tab.` |
+| `gT` | `Switch to previous tab.` |
+| `C-t` | `Toggle the NERDTree.` |
+| `F3` | `Sync the window to the nerdtree.` |
+| `F7` | `Move the window size.` |
+| `F8` | `Move the window size.` |
 
 <br />
 
