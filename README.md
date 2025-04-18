@@ -25,7 +25,7 @@ cd .config
 git clone git@github.com:kentlouisetonino/nihilistictinkerer-kickstart.git
 
 # Rename the folder.
-mv config-neovim-lua nvim
+mv nihilistictinkerer-kickstart nvim
 
 # Go the nvim directory and open nvim.
 cd nvim
