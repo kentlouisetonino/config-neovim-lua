@@ -1,12 +1,16 @@
+![image](https://github.com/user-attachments/assets/fccae260-cc22-4145-a7b9-76e473bdfb8d)
+
+<br />
+
 ## Description
 
 > - A custom neovim kickstart config for cool kids.
 
 <br />
 
-![image](https://github.com/user-attachments/assets/fccae260-cc22-4145-a7b9-76e473bdfb8d)
-
-
+| Dependency | Link |
+| ---------- | ---- |
+| Vim-Plug | https://github.com/junegunn/vim-plug | 
 
 <br />
 <br />
