@@ -132,8 +132,7 @@ sudo apt install xclip
 
 > - However, sometimes `clang` cannot find the headers of <br />
     some libraries. To fix this, put the path of the headers <br />
-    in `.clangd` config. Example below is the path for AVR <br />
-    LibC library.
+    in `.clangd` config. Example below is the path for `C++` libraries.
 
 ```sh
 # Go to the project directory.
