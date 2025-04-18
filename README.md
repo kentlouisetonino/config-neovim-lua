@@ -37,7 +37,13 @@ nvim init.lua
 > - Install the nerd font.
 
 ```sh
-https://www.nerdfonts.com/font-downloads
+Link: https://www.nerdfonts.com/font-downloads
+
+# Move the .ttf files.
+cp *.ttf ~/.local/share/fonts/
+
+# List all available fonts installed.
+fc-list | grep "3270"
 ```
 
 <br />
