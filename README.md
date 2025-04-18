@@ -1,6 +1,6 @@
 ## Description
 
-> - This is my default Neovim config with Lua.
+> - A custom neovim kickstart config for cool kids.
 
 <br />
 
@@ -22,7 +22,7 @@
 cd .config
 
 # Clone the repository.
-git clone git@github.com:kentlouisetonino/config-neovim-lua.git
+git clone git@github.com:kentlouisetonino/nihilistictinkerer-kickstart.git
 
 # Rename the folder.
 mv config-neovim-lua nvim
