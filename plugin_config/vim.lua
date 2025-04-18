@@ -56,3 +56,9 @@ vim.api.nvim_set_keymap("n", "gl", "<cmd>lua vim.diagnostic.open_float()<CR>", {
 
 -- Restart the LSP.
 vim.api.nvim_set_keymap("n", "<F5>", ":LspRestart<CR>", { noremap = true, silent = true })
+
+-- Show absolute line number on the current line.
+vim.opt.number = true
+
+-- Show relative line numbers on other lines.
+vim.opt.relativenumber = true
