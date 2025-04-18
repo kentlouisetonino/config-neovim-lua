@@ -4,7 +4,8 @@
 
 <br />
 
-![Screenshot from 2025-02-15 17-35-03](https://github.com/user-attachments/assets/a75f905f-7dd7-458d-a43b-58b45e18c220)
+![image](https://github.com/user-attachments/assets/fccae260-cc22-4145-a7b9-76e473bdfb8d)
+
 
 
 <br />
