@@ -39,6 +39,7 @@ vim.cmd([[
   Plug 'https://github.com/mhartington/formatter.nvim'
   Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
   Plug 'nvim-lualine/lualine.nvim'
+  Plug 'ryanoasis/vim-devicons'
   call plug#end()
 ]])
 
@@ -105,3 +106,6 @@ require("plugin_config.python")
 
 -- TERRAFORM CONFIGURATION
 require("plugin_config.terraform")
+
+-- ICONS CONFIGURATION
+require("plugin_config.icons")

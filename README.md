@@ -12,7 +12,7 @@
 
 
 
-## Setup
+## Setup and Installation
 
 > - Run the following commands below.
 
@@ -32,6 +32,12 @@ nvim init.lua
 
 # Install the plugins.
 :PlugInstall
+```
+
+> - Install the nerd font.
+
+```sh
+https://www.nerdfonts.com/font-downloads
 ```
 
 <br />
