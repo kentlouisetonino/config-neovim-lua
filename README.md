@@ -103,6 +103,7 @@ fc-list | grep "3270"
 | `O` | `New line above without pressing insert.` |
 | `0` | `Go to the beginning of current line.` |
 | `$` | `Go to the end of current line.` |
+| `%` | `Go to the matching brace, parenthesis, etc.` |
 | `Shift + k` | `Show docs.` |
 | `Shift + v` | `Highlight a line.` |
 | `>` | `Indent multiple line.` |
