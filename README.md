@@ -11,6 +11,7 @@
 
 | `Dependency` | `Link` |
 | ---------- | ---- |
+| `Neovim` | `https://packages.debian.org/search?keywords=neovim` | 
 | `Vim-Plug` | `https://github.com/junegunn/vim-plug` | 
 
 <br />
