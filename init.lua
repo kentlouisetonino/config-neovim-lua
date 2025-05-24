@@ -42,6 +42,8 @@ vim.cmd([[
   Plug 'EdenEast/nightfox.nvim'
   Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
   Plug 'dasupradyumna/midnight.nvim'
+  Plug 'Mofiqul/vscode.nvim'
+  Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
   call plug#end()
 ]])
 
