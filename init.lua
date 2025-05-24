@@ -37,10 +37,11 @@ vim.cmd([[
   Plug 'https://github.com/akinsho/flutter-tools.nvim'
   Plug 'https://github.com/williamboman/mason.nvim'
   Plug 'https://github.com/mhartington/formatter.nvim'
-  Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
   Plug 'nvim-lualine/lualine.nvim'
-  Plug 'EdenEast/nightfox.nvim'
   Plug 'ryanoasis/vim-devicons'
+  Plug 'EdenEast/nightfox.nvim'
+  Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
+  Plug 'dasupradyumna/midnight.nvim'
   call plug#end()
 ]])
 

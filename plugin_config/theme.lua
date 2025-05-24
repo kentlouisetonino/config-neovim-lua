@@ -1,10 +1,13 @@
--- Initialize the midnight theme.
--- vim.cmd [[ colorscheme moonfly ]]
+-- MOONFLY THEME
+vim.cmd([[ colorscheme moonfly ]])
 
--- Initialize the carbonfox theme.
-require("nightfox").setup({
-	options = {
-		transparent = true,
-	},
-})
-vim.cmd([[ colorscheme carbonfox ]])
+-- NIGHTFOX THEME
+-- require("nightfox").setup({
+--	options = {
+--		transparent = true,
+--	},
+-- })
+-- vim.cmd([[ colorscheme carbonfox ]])
+
+-- MIDNIGHT THEME
+-- vim.cmd([[ colorscheme midnight ]])
