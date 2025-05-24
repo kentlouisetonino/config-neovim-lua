@@ -1,12 +1,18 @@
-## Description
+![image](https://github.com/user-attachments/assets/93192a0e-8973-4580-ab40-dcea7ebc1fa8)
 
-> - This is my default Neovim config with Lua.
 
 <br />
 
-![image](https://github.com/user-attachments/assets/fccae260-cc22-4145-a7b9-76e473bdfb8d)
+## Description
 
+> - A custom neovim kickstart config for cool kids.
 
+<br />
+
+| `Dependency` | `Link` |
+| ---------- | ---- |
+| `Neovim` | `https://packages.debian.org/search?keywords=neovim` | 
+| `Vim-Plug` | `https://github.com/junegunn/vim-plug` | 
 
 <br />
 <br />
@@ -56,66 +62,60 @@ fc-list | grep "3270"
 
 <br />
 
-| Nerdtree Commands | Description |
+| `Nerdtree Commands` | `Description` |
 | ----------------- | ----------- |
-| m | This bring up the NerdTree Filesystem menu. |
-| a | This allows to create a new file. |
-| d | This allows to delete a file. |
-| mm | This allows renaming a file. |
-| t | Open a new tab. |
-| gt | Switch to next tab. |
-| gT | Switch to previous tab. |
-| C-t | Toggle the NERDTree. |
-| F3 | Sync the window to the nerdtree. |
-| F7 | Move the window size. |
-| F8 | Move the window size. |
+| `m` | `This bring up the NerdTree Filesystem menu.` |
+| `a` | `This allows to create a new file.` |
+| `d` | `This allows to delete a file.` |
+| `mm` | `This allows renaming a file.` |
+| `t` | `Open a new tab.` |
+| `gt` | `Switch to next tab.` |
+| `gT` | `Switch to previous tab.` |
+| `C-t` | `Toggle the NERDTree.` |
+| `F3` | `Sync the window to the nerdtree.` |
+| `F7` | `Move the window size.` |
+| `F8` | `Move the window size.` |
 
 <br />
 
-> - Basic commands.
-
-```plaintext
-h   : Move cursor left.
-j   : Move cursor down.
-k   : Move cursor up.
-l   : Move cursor right.
-H   : Move to top of screen.
-M   : Move to middle of screen.
-L   : Move to bottom of screen.
-G   : Move the cursor at the bottom of the page.
-gg  : Move to the top of page.
-
-e   : Jump forwards to the end of a word.
-E   : Jump forwards to the end of a word (Words can contain punctuation).
-w   : Jump forwards to the start of a word.
-W   : Jump forwards to the start of a word (Words can contain puntuation).
-gd  : Go to definition.
-gl  : Show the full error message.
-
-C-y : Completion active import.
-C-n : Completion next import.
-C-p : Completion previous import.
-
-r   : Replace a character.
-x   : Delete a character.
-o   : New line below without pressing insert.
-O   : New line above without pressing insert.
-0   : Go to the beginning of current line.
-$   : Go to the end of current line.
-
-Shift + k   : Show docs.
-Shift + v   : Highlight a line.
->           : Indent multiple line.
-:noh        : Remove the highlights.
-
-F1  : Open a new tab with terminal.
-F2  : Escape the insert mode of terminal.
-F5  : Restart the LSP.
-F9  : Close the current tab or window.
-
-/<word> -> Enter -> n   : This will allow to search the word and jump to the next same word.
-:wqa 			: Close all open tabs.
-```
+| `Commands` | `Description` |
+| ---------- | ------------- |
+| `h` | `Move cursor left.` |
+| `j` | `Move cursor down.` |
+| `k` | `Move cursor up.` |
+| `l` | `Move cursor right.` |
+| `H` | `Move to top of screen.` |
+| `M` | `Move to middle of screen.` |
+| `L` | `Move to bottom of screen.` |
+| `G` | `Move the cursor at the bottom of the page.`
+| `gg` | `Move to the top of page.` |
+| `e` | `Jump forwards to the end of a word.`|
+| `E` | `Jump forwards to the end of a word (Words can contain punctuation).` |
+| `w` | `Jump forwards to the start of a word.` |
+| `W` | `Jump forwards to the start of a word (Words can contain puntuation).` |
+| `gd` | `Go to definition.` |
+| `gl` | `Show the full error message.` |
+| `C-y` | `Completion active import.` |
+| `C-n` | `Completion next import.` |
+| `C-p` | `Completion previous import.` |
+| `r` | `Replace a character.` |
+| `x` | `Delete a character.` |
+| `o` | `New line below without pressing insert.` |
+| `O` | `New line above without pressing insert.` |
+| `0` | `Go to the beginning of current line.` |
+| `$` | `Go to the end of current line.` |
+| `%` | `Go to the matching brace, parenthesis, etc.` |
+| `Shift + k` | `Show docs.` |
+| `Shift + v` | `Highlight a line.` |
+| `>` | `Indent multiple line.` |
+| `:noh` | `Remove the highlights.` |
+| `F1` | `Open a new tab with terminal.` |
+| `F2` | `Escape the insert mode of terminal.` |
+| `F5` | `Restart the LSP.` |
+| `F9` | `Close the current tab or window.` |
+| `/<word> -> Enter -> n` | `This will allow to search the word and jump to the next same word.` |
+| `:wqa` | `Close all open tabs.` |
+| `gl` | `Wrap the error message.` |
 
 <br />
 <br />
