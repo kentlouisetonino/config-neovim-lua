@@ -11,3 +11,9 @@ vim.cmd([[ colorscheme moonfly ]])
 
 -- MIDNIGHT THEME
 -- vim.cmd([[ colorscheme midnight ]])
+
+-- VSCODE THEME
+require("vscode").setup({
+	transparent = true,
+})
+vim.cmd([[ colorscheme vscode ]])
