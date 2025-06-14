@@ -11,8 +11,8 @@
 
 | `Dependency` | `Link` |
 | ---------- | ---- |
-| `Neovim` | `https://packages.debian.org/search?keywords=neovim` | 
-| `Vim-Plug` | `https://github.com/junegunn/vim-plug` | 
+| `Neovim` | `https://packages.debian.org/search?keywords=neovim` |
+| `Vim-Plug` | `https://github.com/junegunn/vim-plug` |
 
 <br />
 <br />
@@ -111,6 +111,7 @@ fc-list | grep "3270"
 | `:noh` | `Remove the highlights.` |
 | `F1` | `Open a new tab with terminal.` |
 | `F2` | `Escape the insert mode of terminal.` |
+| `F3` | `Open terminal in horizontal split` |
 | `F5` | `Restart the LSP.` |
 | `F9` | `Close the current tab or window.` |
 | `/<word> -> Enter -> n` | `This will allow to search the word and jump to the next same word.` |
