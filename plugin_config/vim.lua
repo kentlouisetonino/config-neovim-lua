@@ -37,7 +37,10 @@ vim.api.nvim_set_keymap("n", "<F7>", "<C-w>>", { noremap = true, silent = true }
 -- Go to definition.
 vim.api.nvim_set_keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", { noremap = true, silent = true })
 
--- Horizontal terminal.
+-- Open an horizontal bash split at the bottom.
+vim.api.nvim_set_keymap("n", "<F4>", ":belowright split | terminal<CR>", { noremap = true, silent = true })
+
+-- New tabe terminal.
 vim.api.nvim_set_keymap("n", "<F1>", ":tabnew | terminal<CR>", { noremap = true, silent = true })
 
 -- Allow escape when in insert mode in terminal.
