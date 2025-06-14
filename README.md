@@ -116,6 +116,7 @@ fc-list | grep "3270"
 | `/<word> -> Enter -> n` | `This will allow to search the word and jump to the next same word.` |
 | `:wqa` | `Close all open tabs.` |
 | `gl` | `Wrap the error message.` |
+| `Ctrl + w + s` | `Horizontal split` |
 
 <br />
 <br />
