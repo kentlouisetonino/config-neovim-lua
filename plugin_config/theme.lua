@@ -1,6 +1,9 @@
 -- MOONFLY THEME
 vim.cmd([[ colorscheme moonfly ]])
 
+-- KANAGAWA THEME
+-- vim.cmd([[ colorscheme kanagawa-wave ]])
+
 -- DARCULA DARK THEME
 -- require("darcula").setup({
 -- 	override = function()
