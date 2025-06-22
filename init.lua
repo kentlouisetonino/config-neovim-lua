@@ -44,6 +44,7 @@ vim.cmd([[
   Plug 'dasupradyumna/midnight.nvim'
   Plug 'Mofiqul/vscode.nvim'
   Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+  Plug 'xiantang/darcula-dark.nvim'
   call plug#end()
 ]])
 
