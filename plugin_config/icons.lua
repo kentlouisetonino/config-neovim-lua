@@ -1,2 +1,2 @@
-vim.opt.guifont = "3270NerdFontMono-Regular:h12"
+vim.opt.guifont = "JetBrainsMonoNerdFontPropo-Regular"
 vim.opt.encoding = "utf-8"

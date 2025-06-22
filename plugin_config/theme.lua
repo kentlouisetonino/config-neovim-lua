@@ -1,5 +1,16 @@
 -- MOONFLY THEME
-vim.cmd([[ colorscheme moonfly ]])
+-- vim.cmd([[ colorscheme moonfly ]])
+
+-- DARCULA DARK THEME
+require("darcula").setup({
+	override = function(c)
+		return {
+			background = "#333333",
+			dark = "#000000",
+		}
+	end,
+})
+vim.cmd([[ colorscheme darcula-dark ]])
 
 -- NIGHTFOX THEME
 -- require("nightfox").setup({
