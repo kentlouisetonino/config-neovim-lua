@@ -12,6 +12,11 @@ require("darcula").setup({
 			dark = "#000000",
 		}
 	end,
+	opt = {
+		integrations = {
+			telescope = false,
+		},
+	},
 })
 vim.cmd([[ colorscheme darcula-dark ]])
 
