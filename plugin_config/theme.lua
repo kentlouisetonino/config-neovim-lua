@@ -15,6 +15,10 @@ require("darcula").setup({
 	opt = {
 		integrations = {
 			telescope = false,
+			lualine = false,
+			lsp_semantics_token = false,
+			nvim_cmp = false,
+			dap_nvim = false,
 		},
 	},
 })
