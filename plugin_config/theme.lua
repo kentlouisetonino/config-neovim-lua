@@ -1,28 +1,28 @@
 -- MOONFLY THEME
--- vim.cmd([[ colorscheme moonfly ]])
+vim.cmd([[ colorscheme moonfly ]])
 
 -- KANAGAWA THEME
 -- vim.cmd([[ colorscheme kanagawa-wave ]])
 
 -- DARCULA DARK THEME
-require("darcula").setup({
-	override = function()
-		return {
-			background = "#333333",
-			dark = "#000000",
-		}
-	end,
-	opt = {
-		integrations = {
-			telescope = false,
-			lualine = false,
-			lsp_semantics_token = false,
-			nvim_cmp = false,
-			dap_nvim = false,
-		},
-	},
-})
-vim.cmd([[ colorscheme darcula-dark ]])
+-- require("darcula").setup({
+-- 	override = function()
+-- 		return {
+-- 			background = "#333333",
+-- 			dark = "#000000",
+-- 		}
+-- 	end,
+-- 	opt = {
+-- 		integrations = {
+-- 			telescope = false,
+-- 			lualine = false,
+-- 			lsp_semantics_token = false,
+-- 			nvim_cmp = false,
+-- 			dap_nvim = false,
+-- 		},
+-- 	},
+-- })
+-- vim.cmd([[ colorscheme darcula-dark ]])
 
 -- NIGHTFOX THEME
 -- require("nightfox").setup({
