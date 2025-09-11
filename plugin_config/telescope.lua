@@ -11,8 +11,10 @@ telescope.setup({
 	},
 })
 
--- Map leader+ff to Telescope find_files.
+-- Search based on the current directory.
 vim.api.nvim_set_keymap("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { noremap = true, silent = true })
-
--- Map leader+fg to Telescope live_grep.
 vim.api.nvim_set_keymap("n", "<leader>fg", "<cmd>Telescope live_grep<CR>", { noremap = true, silent = true })
+
+-- Entire machine (global)
+-- vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files cwd=/ <CR>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep cwd=/ <CR>", { noremap = true, silent = true })

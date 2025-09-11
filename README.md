@@ -119,6 +119,8 @@ fc-list | grep "3270"
 | `:wqa` | `Close all open tabs.` |
 | `gl` | `Wrap the error message.` |
 | `Ctrl + w + s` | `Horizontal split` |
+| `f<char>` | `Move to the next occurence of <char>.` |
+| `t<char>` | `Move before the next occurence of <char>.` |
 
 <br />
 <br />
