@@ -79,7 +79,7 @@ fc-list | grep "3270"
 
 <br />
 
-| `Commands` | `Description` |
+| `Motions` | `Description` |
 | ---------- | ------------- |
 | `h` | `Move cursor left.` |
 | `j` | `Move cursor down.` |
