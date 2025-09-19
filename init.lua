@@ -45,6 +45,7 @@ vim.cmd([[
   Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
   Plug 'xiantang/darcula-dark.nvim'
   Plug 'rebelot/kanagawa.nvim'
+  Plug 'ryanoasis/vim-devicons'
   call plug#end()
 ]])
 
@@ -113,4 +114,4 @@ require("plugin_config.python")
 require("plugin_config.terraform")
 
 -- ICONS CONFIGURATION
--- require("plugin_config.icons")
+require("plugin_config.icons")
