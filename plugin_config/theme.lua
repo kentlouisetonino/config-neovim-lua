@@ -1,5 +1,8 @@
 -- MOONFLY THEME
-vim.cmd([[ colorscheme moonfly ]])
+require("moonfly").custom_colors({
+	bg = "#000000",
+})
+vim.cmd([[colorscheme moonfly]])
 
 -- KANAGAWA THEME
 -- vim.cmd([[ colorscheme kanagawa-wave ]])
