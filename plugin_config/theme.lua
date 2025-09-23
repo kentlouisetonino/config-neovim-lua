@@ -1,6 +1,7 @@
 -- MOONFLY THEME
 require("moonfly").custom_colors({
 	bg = "#000000",
+	orange = "#808080",
 })
 vim.cmd([[colorscheme moonfly]])
 

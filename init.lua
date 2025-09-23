@@ -45,6 +45,7 @@ vim.cmd([[
   Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
   Plug 'xiantang/darcula-dark.nvim'
   Plug 'rebelot/kanagawa.nvim'
+  Plug 'ryanoasis/vim-devicons'
   call plug#end()
 ]])
 
