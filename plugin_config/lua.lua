@@ -1,6 +1,7 @@
 -- Require the lua language server.
 require("lspconfig").lua_ls.setup({
-	cmd = { "/opt/lua-language-server/bin/lua-language-server" },
+	-- cmd = { "/opt/lua-language-server/bin/lua-language-server" },
+	cmd = { "lua-language-server" },
 	settings = {
 		Lua = {
 			diagnostics = {
