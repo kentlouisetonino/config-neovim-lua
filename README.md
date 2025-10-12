@@ -121,6 +121,8 @@ fc-list | grep "3270"
 | `Ctrl + w + s` | `Horizontal split` |
 | `f<char>` | `Move to the next occurence of <char>.` |
 | `t<char>` | `Move before the next occurence of <char>.` |
+| `(Command Line Mode) Ctrl + R + %` | `Show the relative of open file.` |
+| `(Command Line Mode) Ctrl + f` | `Open the command history.` |
 
 <br />
 <br />
