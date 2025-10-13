@@ -51,7 +51,7 @@ vim.cmd([[
 
 -- This makes the plugin config accessible in other directory.
 -- If you change the username of the machine, need to update this.
-package.path = package.path .. ";/home/nihilistictinkerer/.config/nvim/?.lua"
+package.path = package.path .. ";/home/kenttonino/.config/nvim/?.lua"
 
 -- CUSTOM CONFIGURATION
 require("plugin_config.vim")
