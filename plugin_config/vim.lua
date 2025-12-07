@@ -57,8 +57,8 @@ vim.opt.clipboard:append("unnamedplus")
 -- Show the error message in multiple line.
 vim.api.nvim_set_keymap("n", "gl", "<cmd>lua vim.diagnostic.open_float()<CR>", { noremap = true, silent = true })
 
--- Restart the LSP.
-vim.api.nvim_set_keymap("n", "<F5>", ":LspRestart<CR>", { noremap = true, silent = true })
+-- Refresh the window.
+vim.api.nvim_set_keymap("n", "<F5>", ":e<CR>", { noremap = true, silent = true })
 
 -- Show absolute line number on the current line.
 vim.opt.number = true
