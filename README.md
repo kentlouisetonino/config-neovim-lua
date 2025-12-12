@@ -1,4 +1,5 @@
-![Screenshot from 2025-07-02 16-45-01](https://github.com/user-attachments/assets/250329af-a509-4232-867e-e4f15b847965)
+<img width="1920" height="996" alt="Screenshot from 2025-12-12 13-20-54" src="https://github.com/user-attachments/assets/1ddfd732-5ebb-45d0-aa63-a899c772c7b7" />
+
 
 
 
