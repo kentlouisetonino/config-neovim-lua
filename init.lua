@@ -19,7 +19,6 @@ vim.cmd([[
   Plug 'https://github.com/preservim/nerdtree'
   Plug 'https://github.com/nvim-telescope/telescope.nvim'
   Plug 'https://github.com/nvim-lua/plenary.nvim'
-  Plug 'https://github.com/dasupradyumna/midnight.nvim'
   Plug 'https://github.com/vim-airline/vim-airline'
   Plug 'https://github.com/neovim/nvim-lspconfig'
   Plug 'https://github.com/hrsh7th/nvim-cmp'
@@ -30,22 +29,14 @@ vim.cmd([[
   Plug 'https://github.com/nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'https://github.com/sbdchd/neoformat'
   Plug 'https://github.com/stevearc/dressing.nvim'
-  Plug 'https://github.com/akinsho/flutter-tools.nvim'
   Plug 'https://github.com/mfussenegger/nvim-dap'
   Plug 'https://github.com/tanvirtin/vgit.nvim'
-  Plug 'https://github.com/stevearc/dressing.nvim'
   Plug 'https://github.com/akinsho/flutter-tools.nvim'
   Plug 'https://github.com/williamboman/mason.nvim'
   Plug 'https://github.com/mhartington/formatter.nvim'
   Plug 'nvim-lualine/lualine.nvim'
-  Plug 'EdenEast/nightfox.nvim'
-  Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
-  Plug 'dasupradyumna/midnight.nvim'
-  Plug 'Mofiqul/vscode.nvim'
-  Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-  Plug 'xiantang/darcula-dark.nvim'
-  Plug 'rebelot/kanagawa.nvim'
   Plug 'ryanoasis/vim-devicons'
+  Plug 'scottmckendry/cyberdream.nvim'
   call plug#end()
 ]])
 
