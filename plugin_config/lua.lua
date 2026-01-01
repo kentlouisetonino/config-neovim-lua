@@ -1,16 +1,5 @@
 -- Require the lua language server.
-require("lspconfig").lua_ls.setup({
-	-- cmd = { "/opt/lua-language-server/bin/lua-language-server" },
-	cmd = { "lua-language-server" },
-	settings = {
-		Lua = {
-			diagnostics = {
-				-- Get the language server to recognize the `vim` global
-				globals = { "vim" },
-			},
-		},
-	},
-})
+vim.lsp.enable('lua_ls')
 
 -- Setup the formatter for lua and any files.
 require("formatter").setup({

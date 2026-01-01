@@ -2,4 +2,4 @@
 vim.g.go_def_mapping_enabled = 0
 
 -- Activate the language server protocol for Go.
-require("lspconfig").gopls.setup({})
+vim.lsp.enable('gopls')
