@@ -27,13 +27,13 @@
 
 ```bash
 # Go to the config directory.
-cd .config
+cd ~/.config
 
 # Clone the repository.
 git clone git@github.com:kentlouisetonino/config-neovim-lua.git
 
 # Rename the folder.
-mv config-neovim-lua nvim
+mv ConfigNeovimLua nvim
 
 # Go the nvim directory and open nvim.
 cd nvim
